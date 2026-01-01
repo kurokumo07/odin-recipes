@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+}
+header{
+    background-color: brown;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+header, header a{
+    color: #fff;
+}
+main{
+    background-color: rgb(209, 207, 236);
+    height: 100%;
+    padding: 20px;
+}
+.container{
+    background-color: #fff;
+    border-radius: 23px;
+    padding: 20px 30px;
+    text-align: center;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.link-nav{
+    font-weight: bold;
+    display: inline-block;
+}
+.link-nav a, .content-subtitle a, header a{
+    text-decoration: none;
+}
+.link-nav a, .content-subtitle a{
+    color: #000;
+}
+.content-title{
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.index-content li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}
+.index-content li a{
+    color: darkblue;
+    text-decoration: none;
+    border: 1px solid #ececec;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px 1px rgba(0, 0, 0, 0.2);
+    padding: 8px 24px;
+}
+.section{
+    min-width: 240px;
+    max-width: 860px;
+    text-align: left;
+    margin: 10px auto 18px;
+}
+.section-head{
+    padding: 4px 20px;
+    border-left: 3px solid rgb(255, 230, 0);
+}
+.section-body{
+    padding: 10px 10px 10px 42px;
+}
+.section-body ul, .section-body ol{
+    padding-left: 16px;
+    line-height: 2.0;
+}
+.section-body ol li::marker{
+    font-weight: bold;
+}
+.section-body ol li{
+    padding-bottom: 8px;
+}
+.section-body ol li:last-child{
+    padding: 0;
+}
+.section-footer{
+    padding: 0 18px 18px 18px;
+}
+.section-footer p{
+    margin-top: 8px;
+}
+.section-footer p em{
+    font-size: 12px;
+    color: grey;
+    line-height: 1.0;
+}
+.nutrition-facts{
+    outline: 1px solid;
+    max-width: 420px;
+    margin-bottom: 25px;
+}
+.nutrition-facts h2{
+    padding: 18px 20px 0;
+}
+footer{
+    background-color: #eaecf3;
+}
+.footer-caption{
+    color: grey;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
